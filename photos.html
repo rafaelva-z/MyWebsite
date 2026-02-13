@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Photos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/photos.css" />
+</head>
+
+<body class="photos">
+    <a href="index.html" class="home-button">Home</a>
+
+  <div class="wrap">
+    <header>
+      <div class="title">Photos</div>
+
+      <nav class="navline">
+        [ <a href="photos.html" aria-current="page">Photos</a> ] [
+        <a href="albums.html">Albums</a> ] [
+        <a href="projects.html">Projects</a> ] [
+        <a href="notes.html">Notes</a> ]
+      </nav>
+
+
+      <div class="separator"></div>
+
+      <p class="page-note">
+        Click to open.
+      </p>
+      <p class="page-note">
+        Some of them have weird shapes, those go <a href="photos.html">here!</a>
+      </p>
+    </header>
+
+    <!-- GALLERY -->
+    <div class="filmstage">
+        <main class="gallery" id="gallery">
+        </main>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog">
+    <div class="lightbox-inner">
+      <p class="sr-only" id="lightboxTitle">Image viewer</p>
+      <img id="lightboxImg" alt="" />
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+      <div class="lightbox-hint">ESC to close • ← → to navigate • click to close</div>
+    </div>
+  </div>
+  <script src="js/photos.js" defer></script>
+</body>
+</html>

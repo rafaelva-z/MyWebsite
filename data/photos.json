@@ -1,0 +1,32 @@
+[
+  {
+    "type": "text",
+    "text": [
+      "Photographs, which cannot themselves explain anything, are inexhaustible invitations to deduction, speculation and fantasy.",
+      "- Susan Sontag \"On Photography\""
+    ]
+  },
+  {
+    "type": "text",
+    "text": "Some days are just light on a wall.",
+    "style": "note"
+  },
+  {
+    "type": "photo",
+    "id": "v1748447629/photo4_kyx3dp.jpg",
+    "alt": "Photo 01",
+    "caption": "train window, late afternoon"
+  },
+  {
+    "type": "photo",
+    "id": "v1748106136/cld-sample-5.jpg",
+    "alt": "Photo 02",
+    "caption": "blue things, collected"
+  },
+  {
+    "type": "photo",
+    "id": "v1748447629/photo2_mv5qz4.jpg",
+    "alt": "Photo 03",
+    "caption": "quiet street, almost empty"
+  }
+]
